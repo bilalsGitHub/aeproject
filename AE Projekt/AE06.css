@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=East+Sea+Dokdo&family=Rubik+Bubbles&display=swap');
+
+.grid {
+  stroke: red;
+}
+
+.ereignis {
+  fill: lightgray;
+  stroke: black;
+  filter: url(#f1);
+}
+
+.event {
+  fill: lightgray;
+  stroke: black;
+  stroke-linejoin: round;
+  filter: url(#f1);
+}
+
+.label {
+  font-family: Arial;
+  stroke: none;
+  font-size: 16px;
+  text-anchor: middle;
+}
+
+
+.red {
+  fill: lightgray;
+  stroke: black;
+  background-color: red;
+}
+
+.black {
+  fill: lightgray;
+  stroke: black;
+  background-color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/focus.png");
+  background-size: 300px;
+  background-repeat: repeat;
+  font-family: 'Rubik Bubbles', cursive;
+
+}
+
+
+.big-container {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+}
+
+.small-container {
+  width: 30px;
+  height: 30px;
+  background-color: antiquewhite;
+  margin: 5px;
+  border: 3px solid black;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#timer-container {
+  background-color: antiquewhite;
+  width: 300px;
+  height: max-content;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#timer-container p {
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+#info {
+  background-color: antiquewhite;
+  width: max-content;
+  height: max-content;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+#info:hover {
+  background-color: aqua;
+}
+
+#startbutton {
+  color: #fff;
+}
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+#startbutton:hover,
+#resetbutton:hover {
+  background-color: white;
+  color: black;
+}
+
+#small{
+
+  transition: all ease-in;
+}
+#small:hover{
+  opacity: 0.4;
+
+}
+
+.button{
+padding: 10px;
+background-color: black;
+color: #fff;
+font-size: 20px;
+  transition: all 1s;
+}
